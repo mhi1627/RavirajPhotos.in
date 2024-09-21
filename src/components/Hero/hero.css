@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "Sansita";
+    src: url(../../../fonts/Sansita/Sansita-Regular.ttf);
+}
+.hero {
+    display: flex;
+}
+
+.heroSec {
+    width: 100%;
+    /* background: rgb(0, 255, 60); */
+}
+.heroSec1 {
+    width: 100%;
+    height: 30%;
+    /* background: rgb(255, 0, 255); */
+    display: flex;
+}
+.greet {
+    width: 50%;
+}
+#greet{
+    font-family: "Sansita";
+    font-size: 6vw;
+    margin: 0 3vw;
+    font-weight: 100;
+   }
+
+.dateTime {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin: 3vw;
+}
+
+.heroSec2 {
+    width: 100%;
+    height: 70%;
+    /* background: rgb(93, 0, 255); */
+    display: flex;
+    /* margin-top: 2vw; */
+}
+
+.stats {
+    width: 60%;
+    background: #fafafa;
+    padding: 0 1vw;
+    
+}
+.statCard {
+    width: 18vw;
+    height: 14vw;
+    border: 1px solid black;
+    /* margin: 1vw; */
+    border-radius: 20px;
+}
+
+.totalPhotos {
+    margin-top: 0;
+}
+
+.addClient {
+    width: 40%;
+     margin-right: 2vw;
+     margin-top: 1vw;
+    height: 30vw;
+    border-radius: 20px;
+    border: 1px solid black;
+}

@@ -1,0 +1,12 @@
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    /* background: #646464; */
+    padding: 5vw 2vw;
+    border-right: .01px solid black;
+}
+
+.sidebar .dashBtn {
+    width: 20vw;
+    color: black;
+    }
