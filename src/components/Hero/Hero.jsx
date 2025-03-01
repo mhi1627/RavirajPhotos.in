@@ -21,9 +21,8 @@ export default function Hero() {
                 <div className="stats1">
                 <div className="storageStat statCard"></div>
                 <div className="totalClient statCard"></div>
-                
                 </div>
-                <div className="stats1">
+                <div className="stats2">
                 <div className="totalPhotos statCard"></div>
                 </div>
             </div>

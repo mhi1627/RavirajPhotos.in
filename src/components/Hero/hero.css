@@ -36,18 +36,26 @@
 
 .heroSec2 {
     width: 100%;
-    height: 70%;
     /* background: rgb(93, 0, 255); */
     display: flex;
-    /* margin-top: 2vw; */
+    border: 2px solid rgb(146, 146, 3);
+    /* gap: 1vw; */
 }
 
 .stats {
     width: 60%;
     background: #fafafa;
-    padding: 0 1vw;
-    
+    padding: 1vw 1vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
 }
+.stats1 {
+   display: flex;
+   gap: 1vw;
+}
+
 .statCard {
     width: 18vw;
     height: 14vw;
@@ -61,7 +69,7 @@
 }
 
 .addClient {
-    width: 40%;
+    width: 50%;
      margin-right: 2vw;
      margin-top: 1vw;
     height: 30vw;
